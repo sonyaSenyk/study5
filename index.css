@@ -1,0 +1,138 @@
+body{
+    background-color:#bffff7;
+    color: #0f141e;
+
+    font-size:16px ;
+    font-weight:normal;
+    font-family:"Comic Sans MS";
+}
+a{
+  color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color:green;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.avatar{
+   width:300px ;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px  rgba( 0.0,0,25);
+}
+
+.info-text{
+    margin-left: 40px;
+}
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+
+.info p{
+    color:#868998 ;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/*
+.social{
+    background:green;
+    padding: 10px 40px;
+    margin: 10px;
+    border: 5px solid black;
+    border-bottom-style:dotted ;
+    border-top-width:15px ;
+*/
+.bg-yellow{
+    background:#fff9dc ;
+}
+.be-green{
+    background:#e5ffe7 ;
+}
+.be-red{
+    background:#ffe5e5 ;
+}
+
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+.card h2{
+    margin-bottom:10px ;
+}
+.list{
+    padding: 0 20px;
+}
+.list li{
+    color: #868998;
+    margin-bottom: 10px ;
+}
+.table{
+    width: 100%;
+}
+/*.table tr:nth-child(even){
+    background: red;*/
+.contact h2{
+  text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color:#0f141e;
+}
+.form-group{
+    width:100% ;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+
+    color: #242423;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: "David CLM";
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > form-group{
+    width: 50%;
+
+}
+.row > form-group:first-child{
+    margin-right: 20px;
+}
+.bth{
+    background: #0f141e;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+
+}
+.bth:hover{
+    opacity: 0.9;
+}
